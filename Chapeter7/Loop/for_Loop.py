@@ -1,0 +1,1 @@
+# a for loop is used to iterate throgh a sequence like  list, tuple, or , sring
