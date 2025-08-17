@@ -25,16 +25,21 @@ print(friends)  # Output: ['Apple', 'Blueberry', 'Banana', 'Date', 'Elderberry']
 last_friend = friends.pop()
 print(last_friend)  # Output: Elderberry
 print(friends)  # Output: ['Apple', 'Blueberry', 'Banana', 'Date']
+
 # 5. sort() - Sorts the list in ascending order
 friends.sort()
 print(friends)  # Output: ['Apple', 'Banana', 'Blueberry', 'Date']
+
 # 6. reverse() - Reverses the order of the list
 friends.reverse()
 print(friends)  # Output: ['Date', 'Blueberry', 'Banana', 'Apple']
+
 # 7. index() - Returns the index of the first occurrence of an element
 print(friends.index("Banana"))  # Output: 2 (index of 'Banana')
+
 # 8. count() - Returns the number of occurrences of an element
 print(friends.count("Apple"))  # Output: 1 (count of 'Apple')
+
 # 9. clear() - Removes all elements from the list
 friends.clear()
 print(friends)  # Output: []
@@ -49,16 +54,21 @@ print(friends_copy)  # Output: ['Apple', 'Banana', 'Cherry']
 more_fruits = ["Fig", "Grape"]
 friends.extend(more_fruits)
 print(friends)  # Output: ['Apple', 'Banana', 'Cherry', 'Fig', 'Grape']
+
 # 12. count() - Returns the number of occurrences of a specified element in the list
 print(friends.count("Apple"))  # Output: 1 (count of 'Apple')
+
 # 13. copy() - Returns a shallow copy of the list
 friends_copy = friends.copy()
 print(friends_copy)  # Output: ['Apple', 'Banana', 'Cherry', 'Fig', 'Grape']
+
 # 14. index() - Returns the index of the first occurrence of a specified element
 print(friends.index("Banana"))  # Output: 1 (index of 'Banana')
+
 # 15. clear() - Removes all elements from the list
 friends.clear()
 print(friends)  # Output: []
+
 # 16. reverse() - Reverses the order of the elements in the list
 friends = ["Apple", "Banana", "Cherry"]
 friends.reverse()

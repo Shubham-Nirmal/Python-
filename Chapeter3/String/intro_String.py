@@ -45,7 +45,7 @@ print(my_string[7:12])  # Output: World
 
 print(my_string[1:5:2])  # Output: el
 
-# 1️⃣ [1:5:2] याचा अर्थ:
+# 1️⃣ [1:5:2] याचा अर्थ:  दर दुसरा character घ्या. 
 
 # start = 1 → index 1 पासून सुरू करा
 

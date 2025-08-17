@@ -2,5 +2,6 @@
 
 a = int(input("Enter a value for a: "))
 b = int(input("Enter a value for b: "))
-average = ((a + b) / 2)
-print("The average of", a, "and", b, "is:", average)
+c = int(input("Enter a value for c: "))
+average = ((a + b + c) / 3)
+print("The average of", a, "and", b, "and", c, "is:", average)
